@@ -28,11 +28,24 @@ They are looking for more clarity on the next Enterprise capabilities we need to
 
 Requirements for IT Strategy summary:
 
-- Has to drive decisions (can't be just another Enterprise Architecture diagram)
+- Has to drive decisions (can't be just another Enterprise Architecture diagram) primarily for Architects and Engineers but useful for business
 - Needs to revolve around big ideas e.g. Consolidation, optimisations
 - Needs some branding. I was pointed to an Engineering Strategy that was built around Safe, Fast, and Lean.
 - Capture the big leaps that are needed to get there. The things needed for good decisions.
 - It could comprise of 8 to 10 principles or constraints.
+- Forces big technical change
+- Drives Speed, Safety, and Efficiency
+- Anchors product and platform thinking
+- Very simple and easy to communicate
+  - Memorable shape, message.
+- Specific things we would like to see accounted for:
+  - Single view of health
+  - Portable cloud-ready
+  - Single customer view
+  - Interoperability - APIs and data
+  - Standardise on protocols (contracts) not products
+  - Service layer that abstracts underlying fulfilment business
+  - Platforms that make delivery safe, fast, and efficient by default.
 
 Create the proposal as a new Markdown file. Ask me for guidance and feedback where appropriate.
 
