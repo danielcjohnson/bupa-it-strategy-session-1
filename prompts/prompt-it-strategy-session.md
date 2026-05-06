@@ -24,7 +24,7 @@ Bupa also looks at their business through these business capabilities:
 7. Pay
 8. Follow-up
 
-Another top level view from one of the other EA team members for this came up with:
+Another top level view from one of the other EA team members for this came up with in a brainstorming session (it has no approved/official use):
 
 1. Customer
 2. Connected Care
