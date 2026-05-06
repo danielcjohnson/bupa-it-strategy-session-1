@@ -92,8 +92,6 @@ Before finalizing:
 - If a statement is an inference rather than a directly supported fact, label it as an inference.
 </grounding_rules>
 
-## Research Prompts
-
 <research_mode>
 - Do research in 3 passes:
   1) Plan: list 3-6 sub-questions to answer.
