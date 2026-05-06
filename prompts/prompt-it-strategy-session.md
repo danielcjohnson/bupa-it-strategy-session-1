@@ -24,6 +24,12 @@ Bupa also looks at their business through these business capabilities:
 7. Pay
 8. Follow-up
 
+Another top level view from one of the other EA team members for this came up with:
+
+1. Customer
+2. Connected Care
+3. ProductOS
+
 They are looking for more clarity on the next Enterprise capabilities we need to pillorise and focus. E.g. Consent, Single Customer View. Then the Enterprise capability 'footprint' starts to emerge.
 
 Requirements for IT Strategy summary:
@@ -47,7 +53,7 @@ Requirements for IT Strategy summary:
   - Service layer that abstracts underlying fulfilment business
   - Platforms that make delivery safe, fast, and efficient by default.
 
-Create the proposal as a new Markdown file. Ask me for guidance and feedback where appropriate.
+Create the outline of a proposal so I can review it.
 
 <output_contract>
 - Return exactly the sections requested, in the requested order.
