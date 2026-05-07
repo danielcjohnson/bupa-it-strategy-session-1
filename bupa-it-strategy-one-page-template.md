@@ -16,29 +16,29 @@ Summarise the business or strategy context this page is responding to, without r
 
 State the central argument of the IT strategy in one clear paragraph.
 
-## 4. Strategic Shifts
+## 4. Strategic Frame
+
+Describe the small number of organising themes or focus areas that make the strategy easy to communicate.
+
+## 5. Strategic Shifts
 
 Describe the small number of major shifts required, using a simple "from / to" structure.
 
-## 5. Priority Capabilities
+## 6. Priority Capabilities
 
 List the enterprise capabilities that need focus, ownership, investment, or standardisation.
 
-## 6. Principles and Constraints
+## 7. Principles and Constraints
 
 Define the rules that should guide architecture, engineering, platform, data, and investment decisions.
 
-## 7. Decision Tests
+## 8. Decision Rights and Exceptions
 
-Capture the questions leaders, architects, and delivery teams should use to test whether an initiative fits the strategy.
+Summarise who owns the key decisions and how exceptions or local variation should be governed.
 
-## 8. Measures of Success
+## 9. Measures of Success
 
 Identify the few measures that will show whether the strategy is improving speed, safety, efficiency, and outcomes.
-
-## 9. Open Decisions
-
-Call out the unresolved decisions needed before the strategy can be endorsed or implemented.
 
 ## 10. Summary Statement
 
