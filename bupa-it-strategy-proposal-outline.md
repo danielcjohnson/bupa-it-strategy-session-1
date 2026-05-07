@@ -16,7 +16,61 @@ The purpose is to make customer, clinical, and cost outcomes easier to improve a
 
 The strategy is not another enterprise architecture diagram. It is a decision framework for where to consolidate, where to standardise, where to abstract local complexity, where resilience and clinical safety must be mandatory, and where business units should continue to differentiate.
 
-## 3. Strategic Shifts
+## 3. Safe, Fast, Connected Strategy View
+
+This view assigns the initial initiatives and enterprise capabilities to the three strategy areas.
+
+```mermaid
+flowchart TB
+    strategy["One Bupa Technology Strategy<br/>Safe, Fast, Connected"]
+    rule["Operating rule<br/>Standardise contracts. Consolidate common capabilities.<br/>Differentiate care and customer experience."]
+
+    strategy --> safeOutcome
+    strategy --> fastOutcome
+    strategy --> connectedOutcome
+
+    subgraph safe["Safe"]
+        direction TB
+        safeOutcome["Outcome<br/>Trusted, compliant, clinically safe,<br/>and resilient services"]
+        safeInitiatives["Initiatives<br/>Consent, privacy, and audit by design<br/>Operational resilience by design<br/>Clinical safety and AI governance<br/>Security controls in platform paths"]
+        safeCapabilities["Capabilities<br/>Consent and preferences<br/>Clinical safety, AI, and evidence governance<br/>Enterprise observability and value management"]
+        safeOutcome --> safeInitiatives --> safeCapabilities
+    end
+
+    subgraph fast["Fast"]
+        direction TB
+        fastOutcome["Outcome<br/>Change delivered quickly through<br/>reusable platform paths"]
+        fastInitiatives["Initiatives<br/>Platform golden paths<br/>API, event, and data contract governance<br/>Fulfilment abstraction behind service layers<br/>Automated delivery, observability, and recovery"]
+        fastCapabilities["Capabilities<br/>Cloud and developer platform<br/>API, event, and data contract platform<br/>Eligibility, funding, claims, and billing services"]
+        fastOutcome --> fastInitiatives --> fastCapabilities
+    end
+
+    subgraph connected["Connected"]
+        direction TB
+        connectedOutcome["Outcome<br/>Customers, care, products, and partners<br/>work from shared trusted context"]
+        connectedInitiatives["Initiatives<br/>Single customer context<br/>Governed health context<br/>FHIR-aligned clinical exchange<br/>Provider and partner connectivity"]
+        connectedCapabilities["Capabilities<br/>Customer identity and party model<br/>Customer context<br/>Health context<br/>Provider and partner connectivity"]
+        connectedOutcome --> connectedInitiatives --> connectedCapabilities
+    end
+
+    safeCapabilities --> rule
+    fastCapabilities --> rule
+    connectedCapabilities --> rule
+
+    classDef strategy fill:#12355b,color:#ffffff,stroke:#12355b,stroke-width:2px
+    classDef safe fill:#e8f3f1,color:#12355b,stroke:#5b948a,stroke-width:1px
+    classDef fast fill:#f4f1e8,color:#3b3216,stroke:#b49b4d,stroke-width:1px
+    classDef connected fill:#edf1f7,color:#12355b,stroke:#7c93b3,stroke-width:1px
+    classDef rule fill:#184f3d,color:#ffffff,stroke:#184f3d,stroke-width:2px
+
+    class strategy strategy
+    class safeOutcome,safeInitiatives,safeCapabilities safe
+    class fastOutcome,fastInitiatives,fastCapabilities fast
+    class connectedOutcome,connectedInitiatives,connectedCapabilities connected
+    class rule rule
+```
+
+## 4. Strategic Shifts
 
 | Strategic Shift | From | To | Decision It Drives |
 | --- | --- | --- | --- |
@@ -24,7 +78,7 @@ The strategy is not another enterprise architecture diagram. It is a decision fr
 | **2. From point-to-point integration to enterprise interoperability** | Local integrations, product-specific APIs, duplicated data flows | Standard APIs, events, data contracts, clinical protocols, and interoperability patterns | Standardise on contracts and protocols before products |
 | **3. From local delivery effort to platform-enabled delivery** | Teams repeatedly solving security, compliance, deployment, observability, resilience, and cloud foundations | Platforms that make safe, fast, resilient, efficient delivery the default path | Shift effort from repeated plumbing to product, care, and customer outcomes |
 
-## 4. Priority Enterprise Capabilities
+## 5. Priority Enterprise Capabilities
 
 The first capability footprint should be small enough to govern and broad enough to change delivery behaviour.
 
@@ -41,7 +95,7 @@ The first capability footprint should be small enough to govern and broad enough
 | **Clinical safety, AI, and evidence governance** | Ensure digital, data, automation, and AI-enabled services are clinically appropriate, auditable, and responsibly operated. |
 | **Enterprise observability and value management** | Make reliability, adoption, journey performance, unit cost, safety, and value visible enough to manage. |
 
-## 5. Decision Rights and Ownership
+## 6. Decision Rights and Ownership
 
 Each enterprise capability needs one accountable owner with authority over roadmap, funding, standards, adoption, lifecycle health, and value evidence.
 
@@ -54,7 +108,7 @@ Each enterprise capability needs one accountable owner with authority over roadm
 | **Retirement and convergence** | Capability owner and investment governance, with explicit transition funding. |
 | **Risk acceptance** | Named accountable executive, supported by security, privacy, resilience, and clinical safety evidence. |
 
-## 6. Mandatory Standards and Constraints
+## 7. Mandatory Standards and Constraints
 
 The strategy should make a small set of standards mandatory wherever the relevant pattern applies.
 
@@ -69,7 +123,7 @@ The strategy should make a small set of standards mandatory wherever the relevan
 | **Cloud-ready and portable architecture** | New services, material platform changes, and strategic vendor decisions. |
 | **Platform golden paths** | Delivery pipelines, observability, security controls, deployment, recovery, and cost management. |
 
-## 7. Proposed Principles
+## 8. Proposed Principles
 
 1. Customer, Clinical, Cost is the primary trade-off model.
 2. One customer, many journeys.
@@ -82,7 +136,7 @@ The strategy should make a small set of standards mandatory wherever the relevan
 9. Differentiate where local market value matters.
 10. Measure reuse, speed, safety, efficiency, and outcomes.
 
-## 8. Outcome Scorecard
+## 9. Outcome Scorecard
 
 The strategy should be judged by whether it changes delivery behaviour and business outcomes, not by whether the target architecture is documented.
 
@@ -95,7 +149,7 @@ The strategy should be judged by whether it changes delivery behaviour and busin
 | **Customer and care outcomes** | Journey completion, digital containment where appropriate, NPS-linked journey improvements, care continuity, claims/payment friction. |
 | **Data quality and trust** | Data product quality scores, lineage coverage, consent traceability, decision-grade dataset adoption. |
 
-## 9. Exception Model
+## 10. Exception Model
 
 Local differentiation is allowed where it creates market value, responds to regulation, or protects a clinically necessary workflow. It should not be an unmanaged default.
 
@@ -107,7 +161,7 @@ Each exception should have:
 4. A review date or expiry condition.
 5. A convergence, containment, or deliberate-local decision.
 
-## 10. Updated One-Page Message
+## 11. Updated One-Page Message
 
 **One Bupa Technology Strategy: Safe, Fast, Connected**
 
