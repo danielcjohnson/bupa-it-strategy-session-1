@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="bupa-it-strategy-single-page" name="Single-page IT Strategy">
+        <mxGraphModel dx="2817" dy="1263" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="page-bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#E5E7EB;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="30" width="1540" height="1020" as="geometry"/>
+                </mxCell>
+                <mxCell id="title" value="&lt;div style=&quot;font-size:34px;font-weight:700;color:#111827;&quot;&gt;Bupa As One&lt;/div&gt;&lt;div style=&quot;font-size:18px;color:#374151;margin-top:6px;&quot;&gt;A context-ready healthcare experience enterprise&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="54" width="760" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="purpose" value="Decision Model" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;strokeWidth=1;fontColor=#374151;arcSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="60" width="160" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="outer-context" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#4F46E5;strokeWidth=3;dashed=1;dashPattern=8 6;arcSize=4;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="135" width="1460" height="725" as="geometry"/>
+                </mxCell>
+                <mxCell id="context-label" value="Context-Ready by Design" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fillColor=#EEF2FF;strokeColor=#4F46E5;strokeWidth=2;fontColor=#312E81;arcSize=18;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="118" width="280" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="experience" value="&lt;div style=&quot;font-size: 22px; font-weight: 700; color: rgb(6, 78, 59);&quot;&gt;Experience&lt;/div&gt;&lt;div style=&quot;font-size: 14px; color: rgb(6, 95, 70); margin-top: 6px;&quot;&gt;Connected journeys that hide Bupa&#39;s internal complexity&lt;/div&gt;&lt;div style=&quot;font-size: 13px; color: rgb(17, 24, 39); margin-top: 10px;&quot;&gt;Single customer view | Single view of health | Consent | Journey continuity | Communication history&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DFF4ED;strokeColor=#0F766E;strokeWidth=2;shadow=0;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="180" width="1000" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="capability" value="&lt;div style=&quot;font-size: 22px; font-weight: 700; color: rgb(30, 58, 138);&quot;&gt;Capability&lt;/div&gt;&lt;div style=&quot;font-size: 14px; color: rgb(30, 64, 175); margin-top: 6px;&quot;&gt;Reusable enterprise capabilities composed across BUs, products and markets&lt;/div&gt;&lt;div style=&quot;font-size: 13px; color: rgb(17, 24, 39); margin-top: 10px; line-height: 1.35;&quot;&gt;Identity | Profile | Consent&lt;br&gt;Booking | Payment | Care navigation&lt;br&gt;Engagement | Follow-up | Service orchestration&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#DBEAFE;strokeColor=#2563EB;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="355" width="430" height="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="platform" value="&lt;div style=&quot;font-size: 22px; font-weight: 700; color: rgb(19, 78, 74);&quot;&gt;Platform&lt;/div&gt;&lt;div style=&quot;font-size: 14px; color: rgb(15, 118, 110); margin-top: 6px;&quot;&gt;Safe, fast, efficient delivery paths for teams&lt;/div&gt;&lt;div style=&quot;font-size: 13px; color: rgb(17, 24, 39); margin-top: 10px; line-height: 1.35;&quot;&gt;APIs | Events | Integration | Service templates&lt;br&gt;Deployment paths | Security | Observability&lt;br&gt;Workflow | Cloud | Runtime platforms&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#CCFBF1;strokeColor=#0D9488;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="355" width="430" height="245" as="geometry"/>
+                </mxCell>
+                <mxCell id="knowledge-data" value="&lt;div style=&quot;font-size: 22px; font-weight: 700; color: rgb(146, 64, 14);&quot;&gt;Knowledge and Data&lt;/div&gt;&lt;div style=&quot;font-size: 14px; color: rgb(180, 83, 9); margin-top: 6px;&quot;&gt;Enterprise context that is findable, meaningful, governed and usable&lt;/div&gt;&lt;div style=&quot;font-size: 13px; color: rgb(17, 24, 39); margin-top: 10px;&quot;&gt;Authoritative data products | Semantic layer | Metadata | Clinical context | Decision intelligence | Shared definitions&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="650" width="1000" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="center-c3" value="&lt;div style=&quot;font-size:26px;font-weight:700;color:#111827;&quot;&gt;Customer | Clinical | Cost&lt;/div&gt;&lt;div style=&quot;font-size:34px;font-weight:700;color:#0F172A;margin-top:8px;&quot;&gt;As One&lt;/div&gt;&lt;div style=&quot;font-size:13px;color:#374151;margin-top:10px;line-height:1.35;&quot;&gt;Technology decisions improve experience,&lt;br&gt;context and efficiency together&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#111827;strokeWidth=3;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="345" width="400" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-exp" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=2;strokeColor=#6B7280;" parent="1" source="experience" target="center-c3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-cap" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=2;strokeColor=#6B7280;" parent="1" source="capability" target="center-c3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-plat" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=2;strokeColor=#6B7280;" parent="1" source="platform" target="center-c3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge-data" value="" style="endArrow=none;html=1;rounded=1;strokeWidth=2;strokeColor=#6B7280;" parent="1" source="knowledge-data" target="center-c3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-systems" value="Business unit platforms and fulfilment systems remain local where they create value, abstracted through common contracts, APIs, events and semantics" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fillColor=#F9FAFB;strokeColor=#9CA3AF;strokeWidth=1;arcSize=8;fontColor=#374151;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="780" width="1000" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-discoverable" value="Discoverable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="165" y="839" width="135" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-understandable" value="Understandable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="839" width="150" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-composable" value="Composable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="839" width="130" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-executable" value="Executable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="625" y="839" width="130" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-traceable" value="Traceable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="839" width="120" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-memorable" value="Memorable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="905" y="839" width="125" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="pill-machine" value="Human and machine-consumable" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;fillColor=#EEF2FF;strokeColor=#6366F1;fontColor=#312E81;arcSize=50;" parent="1" vertex="1">
+                    <mxGeometry x="1045" y="839" width="250" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="decision-principles" value="&lt;div style=&quot;font-size:18px;font-weight:700;color:#111827;&quot;&gt;Decision Principles&lt;/div&gt;&lt;div style=&quot;font-size:13px;color:#374151;margin-top:8px;line-height:1.45;&quot;&gt;Every service has a customer&lt;br&gt;One truth, many optimised copies&lt;br&gt;The customer journey must not restart&lt;br&gt;Protocols over products&lt;br&gt;Capabilities must be portable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=14;fontSize=14;fillColor=#F9FAFB;strokeColor=#D1D5DB;strokeWidth=1;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="890" width="355" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="hello-world" value="&lt;div style=&quot;font-size:18px;font-weight:700;color:#111827;&quot;&gt;Time to Hello World&lt;/div&gt;&lt;div style=&quot;font-size:13px;color:#374151;margin-top:8px;line-height:1.45;&quot;&gt;How long does it take to build, deploy, secure, observe and integrate a minimal Bupa-standard service through the preferred platform path?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=14;fontSize=14;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="465" y="890" width="425" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="dora" value="&lt;div style=&quot;font-size:18px;font-weight:700;color:#111827;&quot;&gt;Upstream of DORA&lt;/div&gt;&lt;div style=&quot;font-size:13px;color:#374151;margin-top:8px;line-height:1.45;&quot;&gt;DORA measures flow through the delivery system. Time to Hello World measures how hard it is to enter the delivery system.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=14;fontSize=14;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="890" width="430" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="north-star" value="North Star: make Bupa easier to use, easier to change and easier to understand across people, systems and authorised agents." style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fillColor=#111827;strokeColor=#111827;fontColor=#FFFFFF;arcSize=8;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="890" width="130" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
