@@ -3,6 +3,8 @@
         "Color",
         "math",
         "mxfile",
-        "quot"
+        "offs",
+        "quot",
+        "rgba"
     ]
 }
